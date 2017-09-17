@@ -3,9 +3,20 @@
 This is the notes / exercise taken for the tutorial on nodeschool.io title how-to-markdown. It's also an attempt to use markdown on GitHub.
 
 ## Table of Contents
-* [Headers](#headers)
+* [Headings](#headings)
+* [Emphasis](#emphasis)
+* [Lists](#lists)
+* [Links](#links)
+* [Images](#images)
+* [BlockQuotes](#blockquotes)
+* [Code](#code)
+* [Tables](#tables)
+* [Horizontal Rules](#horizontalrules)
+* [HTML](#html)
+* [GFM](#gfm)
 
-<a name="headers" />
+<a name="headings" />
+
 ## Headers
 
 # Markdown is awesome!
