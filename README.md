@@ -17,7 +17,7 @@ This is the notes / exercise taken for the tutorial on nodeschool.io title how-t
 
 <a name="headings" />
 
-## Headings
+## 1. Headings
 
 ```
 # Markdown is awesome!
@@ -57,7 +57,7 @@ Put 3 dash/hyphen usder this to turn this into heading 2
 
 <a name="emphasis" />
 
-## Emphasis
+## 2. Emphasis
 
 ```
 
@@ -80,36 +80,138 @@ It's very easy to use _italic_, **bold** and _**combined**_ emphasis in Markdown
 
 <a name="lists" />
 
-## Lists
+## 3. Lists
+
+```
+
+- One
+    - 1.1
+    - 1.2
+- Two
+    - 2.1
+    - 2.2
+- Three
+- Four
+- Five
+
+1. Hell
+2. Yeah
+
+```
+
+- One
+    - 1.1
+    - 1.2
+- Two
+    - 2.1
+    - 2.2
+- Three
+- Four
+- Five
+
+1. Hell
+2. Yeah
 
 <a name="links" />
 
-## Links
+## 4. Links
+
+```
+[how-to-markdown] is a workshopper that teaches you how to write Markdown.
+
+[how-to-markdown]: //git.io/how-to-markdown
+
+## There are 2 types of linking in Markdown
+
+1. Inline style
+
+    **formula** : [text](href "alt")
+
+
+[Google](https://www.google.com)
+
+2. Reference style
+
+//This keyword is just a variable
+[Google] is a search engine
+
+//This will replace what's up there
+[Google]: https://www.google.com
+
+```
+
+[how-to-markdown] is a workshopper that teaches you how to write Markdown.
+
+[how-to-markdown]: //git.io/how-to-markdown
+
+## There are 2 types of linking in Markdown
+
+1. Inline style
+
+    **formula** : [text](href "alt")
+
+```
+[Google](https://www.google.com)
+```
+2. Reference style
+
+```
+//This keyword is just a variable
+[Google] is a search engine
+
+//This will replace what's up there
+[Google]: https://www.google.com
+
+```
 
 <a name="images" />
 
-## Images
+## 5. Images
+
+```
+1. How to embed images in Markdown??
+    The formula is just like writing links but with a exclamation mark infront
+
+![Markdown logo](http://bit.do/how-to-markdown)
+```
+
+1. How to embed images in Markdown??
+    The formula is just like writing links but with a exclamation mark infront
+
+![Markdown logo](http://bit.do/how-to-markdown)
 
 <a name="blockquotes" />
 
-## BlockQuotes
+## 6. BlockQuotes
+
+```
+* Add a ">" infront of a paragraph to make it a blockquotes
+
+> To be, or not to be, that is the question.
+> William
+```
+
+* Add a ">" infront of a paragraph to make it a blockquotes
+
+> To be, or not to be, that is the question.
+> William
 
 <a name="code" />
 
-## Code
+## 7. Code
 
 <a name="tables" />
 
-## Tables
+## 8. Tables
 
 <a name="horizontalrules" />
 
-## Horizontal Rules
+## 9. Horizontal Rules
 
 <a name="html" />
 
-## HTML
+## 10. HTML
 
 <a name="gfm" />
 
-## GFM
+## 11. GFM
