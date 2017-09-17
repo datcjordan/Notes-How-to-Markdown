@@ -13,7 +13,6 @@ This is the notes / exercise taken for the tutorial on nodeschool.io title how-t
 * [Tables](#tables)
 * [Horizontal Rules](#horizontalrules)
 * [HTML](#html)
-* [GFM](#gfm)
 
 <a name="headings" />
 
@@ -200,18 +199,71 @@ It's very easy to use _italic_, **bold** and _**combined**_ emphasis in Markdown
 
 ## 7. Code
 
+3 backticks will allow us to write code.
+Add a js behind the 3 backticks to indicate that this is a JS code so the formatter for format accordingly
+
+```js
+const add = (a, b) => a + b;
+```
+
 <a name="tables" />
 
 ## 8. Tables
+
+```
+* Drawing tables in Markdown is just like drawing
+* You dont actually need all those dashes in between the pipe, you need a minimum of **3**
+* You can left-aligned, center or right-aligned the text in each table column
+    * :--:   this is center
+    * ---    no colon is left-aligned
+    * ---:   have a colon at the right hand side is right-aligned
+
+| Year | World population |
+| :--: | --------------- |
+| 1960 | 3 Billion       |
+| 1980 | 4 Billion       |
+| 2000 | 6 Billion       |
+
+```
+
+* Drawing tables in Markdown is just like drawing
+* You dont actually need all those dashes in between the pipe, you need a minimum of **3**
+* You can left-aligned, center or right-aligned the text in each table column
+    * :--:   this is center
+    * ---    no colon is left-aligned
+    * ---:   have a colon at the right hand side is right-aligned
+
+| Year | World population |
+| :--: | --------------- |
+| 1960 | 3 Billion       |
+| 1980 | 4 Billion       |
+| 2000 | 6 Billion       |
+
 
 <a name="horizontalrules" />
 
 ## 9. Horizontal Rules
 
+* There are 3 ways to underline in md
+```
+ 1. ***
+    2. ___
+    3. --- (Remember we said before 3 dashed below some text will make it Heading1? Use this with a space in between the text.)
+```
+
 <a name="html" />
 
 ## 10. HTML
 
-<a name="gfm" />
+```
+* You can insert html just like what you used to, but be careful because the markdown in the HTML tags will not be rendered.
 
-## 11. GFM
+<p align="center">HTML in Markdown</p>
+```
+
+
+* You can insert html just like what you used to, but be careful because the markdown in the HTML tags will not be rendered.
+
+<p align="center">HTML in Markdown</p>
+
+<a name="gfm" />
